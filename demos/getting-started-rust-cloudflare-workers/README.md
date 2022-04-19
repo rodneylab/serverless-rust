@@ -1,15 +1,23 @@
-# Getting Started
+<img src="../../images/rodneylab-github-getting-started-rust-cloudflare-workers.png" alt="Rodney Lab getting-started-rust-cloudflare-workers Github banner">
 
-A template for kick starting a Cloudflare worker project using [`workers-rs`](https://github.com/cloudflare/workers-rs).
+<p align="center">
+  <a aria-label="Open Rodney Lab site" href="https://rodneylab.com" rel="nofollow noopener noreferrer">
+    <img alt="Rodney Lab logo" src="https://rodneylab.com/assets/icon.png" width="60" />
+  </a>
+</p>
+<h1 align="center">
+  Getting Started with Rust Cloudflare Workers
+</h1>
 
-This template is designed for compiling Rust to WebAssembly and publishing the resulting worker to 
-Cloudflare's [edge infrastructure](https://www.cloudflare.com/network/).
+# getting-started-rust-cloudflare-workers
+
+Final code from Rodney Lab <a aria-label="Open Rodney Lab blog post on getting started with Rust Cloudflare Workers" href="https://rodneylab.com/getting-started-rust-cloudflare-workers/">article on Getting started with Rust Cloudflare Workers</a>, which offers an introduction to Rust Cloudflare workers if you are new to Rust or experienced but still new to Workers.
+
+# Getting Started with Rust Cloudflare Workers
+
+This code is designed for compiling Rust to WebAssembly and publishing the resulting worker to Cloudflare's [edge infrastructure](https://www.cloudflare.com/network/).
 
 ## Usage 
-
-This template starts you off with a `src/lib.rs` file, acting as an entrypoint for requests hitting
-your Worker. Feel free to add more code in this file, or create Rust modules anywhere else for this
-project to use. 
 
 With `wrangler`, you can build, test, and deploy your Worker with the following commands: 
 
@@ -34,8 +42,4 @@ modules used in Rust-based Workers projects have to compile to the `wasm32-unkno
 
 Read more about this on the [`workers-rs` project README](https://github.com/cloudflare/workers-rs).
 
-## Issues
-
-If you have any problems with the `worker` crate, please open an issue on the upstream project 
-issue tracker on the [`workers-rs` repository](https://github.com/cloudflare/workers-rs).
-
+Feel free to jump into the [Rodney Lab matrix chat room](https://matrix.to/#/%23rodney:matrix.org).
