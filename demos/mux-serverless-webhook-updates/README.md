@@ -1,15 +1,23 @@
-# Getting Started
+<img src="../../images/rodneylab-github-mux-serverless-webhook-updates.png" alt="Rodney Lab mux-serverless-webhook-updates Github banner">
 
-A template for kick starting a Cloudflare worker project using [`workers-rs`](https://github.com/cloudflare/workers-rs).
+<p align="center">
+  <a aria-label="Open Rodney Lab site" href="https://rodneylab.com" rel="nofollow noopener noreferrer">
+    <img alt="Rodney Lab logo" src="https://rodneylab.com/assets/icon.png" width="60" />
+  </a>
+</p>
+<h1 align="center">
+  Mux Serverless Webhook Updates
+</h1>
 
-This template is designed for compiling Rust to WebAssembly and publishing the resulting worker to 
-Cloudflare's [edge infrastructure](https://www.cloudflare.com/network/).
+# mux-serverless-webhook-updates
+
+Final code from Rodney Lab <a aria-label="Open Rodney Lab blog post on Mux Serverless Webhook Updates" href="https://rodneylab.com/mux-serverless-webhook-updates/">article on Mux Serverless Webhook Updates</a>, which looks at how to set up Rust Cloudflare workers to listen for Mux webhook events and alert admins via a Telegram bot. If you have any questions, please drop a comment at the bottom of that page.
+
+## Mux Serverless Webhook Updates
+
+This code is designed for compiling Rust to WebAssembly and publishing the resulting worker to Cloudflare's [edge infrastructure](https://www.cloudflare.com/network/).
 
 ## Usage 
-
-This template starts you off with a `src/lib.rs` file, acting as an entrypoint for requests hitting
-your Worker. Feel free to add more code in this file, or create Rust modules anywhere else for this
-project to use. 
 
 With `wrangler`, you can build, test, and deploy your Worker with the following commands: 
 
@@ -36,6 +44,4 @@ Read more about this on the [`workers-rs` project README](https://github.com/clo
 
 ## Issues
 
-If you have any problems with the `worker` crate, please open an issue on the upstream project 
-issue tracker on the [`workers-rs` repository](https://github.com/cloudflare/workers-rs).
-
+Feel free to jump into the [Rodney Lab matrix chat room](https://matrix.to/#/%23rodney:matrix.org).
