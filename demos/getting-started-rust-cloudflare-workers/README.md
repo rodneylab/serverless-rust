@@ -13,7 +13,7 @@
 
 Final code from Rodney Lab <a aria-label="Open Rodney Lab blog post on getting started with Rust Cloudflare Workers" href="https://rodneylab.com/getting-started-rust-cloudflare-workers/">article on Getting started with Rust Cloudflare Workers</a>, which offers an introduction to Rust Cloudflare workers if you are new to Rust or experienced but still new to Workers. If you have any questions, please drop a comment at the bottom of that page.
 
-# Getting Started with Rust Cloudflare Workers
+## Getting Started with Rust Cloudflare Workers
 
 This code is designed for compiling Rust to WebAssembly and publishing the resulting worker to Cloudflare's [edge infrastructure](https://www.cloudflare.com/network/).
 
