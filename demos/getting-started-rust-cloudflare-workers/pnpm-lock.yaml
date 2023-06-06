@@ -1,8 +1,12 @@
-lockfileVersion: '6.0'
+lockfileVersion: '6.1'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
 
 devDependencies:
   wrangler:
-    specifier: ^2.20.0
+    specifier: ^2.13.0
     version: 2.20.0
 
 packages:
