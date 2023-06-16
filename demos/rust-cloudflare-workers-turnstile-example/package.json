@@ -1,0 +1,12 @@
+{
+	"name": "rust-cloudflare-workers-turnstile-example",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"deploy": "wrangler deploy",
+		"dev": "wrangler dev --local"
+	},
+	"devDependencies": {
+		"wrangler": "^2.13.0"
+	}
+}

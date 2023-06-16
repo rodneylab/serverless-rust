@@ -9,7 +9,8 @@ const Configuration = {
         "root",
         "getting-started-rust-cloudflare-workers",
         "mux-serverless-webhook-updates",
-        "rust-ci-tooling"
+        "rust-ci-tooling",
+        "rust-cloudflare-workers-turnstile-example"
       ],
     ],
     "scope-empty": [2, "never"],

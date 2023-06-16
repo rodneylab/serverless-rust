@@ -1,0 +1,24 @@
+[package]
+name = "rust-cloudflare-workers-turnstile-example"
+version = "0.0.1"
+edition = "2021"
+license = "BSD-3-Clause"
+repository = "https://github.com/rodneylab/serverless-rust/tree/main/demos/rust-cloudflare-workers-turnstile-example"
+description = "Getting started with Rust Cloudflare Workers: how you can build your first serverless Rust app including REST requests and sending email."
+
+# https://github.com/rustwasm/wasm-pack/issues/1247
+[package.metadata.wasm-pack.profile.release]
+wasm-opt = false
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+reqwest = { version = "0.11.18", features = [ "json"] }
+serde = "1"
+worker = "0.0.17"
+
+[profile.release]
+lto = true
+strip = true
+codegen-units = 1
