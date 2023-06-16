@@ -11,7 +11,7 @@
 
 # rust-cloudflare-workers-turnstile-example
 
-Code for implementing the server component for Cloudflare Turnstile CAPTCHAs using Rust Cloudflare Workers.  This code accomponies the blog post on Rust Cloudflare Worker, which offers an introduction to Rust Cloudflare workers. If you have any questions, please drop a comment at the bottom of that page.
+Code for implementing the server component for Cloudflare Turnstile CAPTCHAs using Rust Cloudflare Workers.  This code accompanies the <a href="https://rodneylab.com/rust-cloudflare-workers-turnstile-example/">blog post on Rust Cloudflare workers</a>, which offers an introduction to Rust Cloudflare workers. If you have any questions, please drop a comment at the bottom of that page.
 
 ## Getting Started with Rust Cloudflare Workers
 
